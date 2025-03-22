@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Tektur:wght@400..900&display=swap');
+
+html, body {
+    height: 100%;
+    margin: 0; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to bottom, #eeb8d6, #ddae89);
+    font-family: "Arial", sans-serif;
+}
+
+.panel-inicio{
+    color: #444;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+    height: 200px;
+    gap: 10px;
+    padding: 30px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 5px;
+}
+
+.caja-usuario{
+    width: 50vh;
+    height: 4vh;
+}
+
+.boton-ingreso{
+    margin-top: 10px;
+}
+
+.boton{
+    border: none;
+    color: #444;
+    width: 51vh;
+    height: 5vh;
+    cursor: pointer;
+    transition: 0.3 ease;
+    background: linear-gradient(to right, #ff9a9e, #fad0c4);
+}
+
+.boton:hover{
+    background: linear-gradient(to right, #fbc2eb, #a6c1ee);
+}
+
+.texto{
+    text-align: center;
+}
+
+.texto-lista{
+    text-align: center;
+    font-size: 28px;
+}
+
+.formulario-buscador{
+    display: flex;
+}
+
+.boton-buscar-usuario{  
+    border: none;
+    color: #444;
+    width: 40vh;
+    height: 5vh;
+    cursor: pointer;
+    transition: 0.3 ease;
+    background: linear-gradient(to right, #ff9a9e, #fad0c4);
+}
+
+.boton-buscar-usuario:hover{
+    background: linear-gradient(to right, #fbc2eb, #a6c1ee);
+}
+
+.lista{
+    color: #444;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+    height: 200px;
+    gap: 10px;
+    padding: 30px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 5px;
+    transition: width 0.3s ease, height 0.3s ease;
+}
+
+#botonLista {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background: linear-gradient(to right, #ff9a9e, #fad0c4);
+    color: #444;
+    border: none;
+    cursor: pointer;
+}
+
+#botonLista:hover {
+    background: linear-gradient(to right, #fbc2eb, #a6c1ee);
+}
+
+
+.lista:hover{
+    width: 100%;
+    height: 100%;
+}
+
+#usuario-buscado{
+    width: 40vh;
+    height: 4vh;
+}
+
+.grilla{
+    margin-top: 10px;
+    max-height: 1000px; 
+    overflow: auto; 
+    width: 100%;
+}
+
+th{
+    padding: 10px;
+}
+

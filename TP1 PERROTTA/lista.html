@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista - TP1</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="lista">
+        <div class="buscador-usuario">
+            <p class="texto-lista">Lista de usuarios</p>
+            <div class="formularioBuscador">
+                <form id="formBuscarUsuario">
+                    <input type="text" name="Usuario buscado" id="usuario-buscado" placeholder="Ingrese el nombre de un usuario">
+                    <button class="boton-buscar-usuario" type="submit">Buscar</button>
+                </form>
+            </div>
+        </div>
+
+        <div class="grilla">
+            <table border="1">
+                <tr>
+                    <th>Id</th>
+                    <th>Usuario</th>
+                    <th>Bloqueado</th>
+                    <th>Apellido</th>
+                    <th>Nombre</th>
+                </tr>
+            </table>
+        </div>
+
+        <button id="botonLista">Mostrar lista de usuarios</button> 
+    </div>
+    
+    <script src="proyecto.js"></script>
+</body>
+</html>
